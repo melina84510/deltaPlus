@@ -1,0 +1,29 @@
+// Sélectionne l'élément du DOM avec l'ID 'consentement'.
+const consentementCheckbox = document.getElementById('consentement');
+// Fonction qui charge le captcha si la case de consentement est cochée.
+function ChargeCaptcha() {
+     // Vérifie si la case de consentement est cochée.
+    if (consentementCheckbox.checked) {
+        const script = document.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js'; // Définit l'URL du script comme le service de reCAPTCHA de Google.
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);  // Ajoute le script au corps (body) du document.
+    }    
+}
+// Ajoute un écouteur d'événements pour le changement de l'état de la case de consentement.
+consentementCheckbox.addEventListener('change', function() {
+    ChargeCaptcha();  // Appelle la fonction ChargeCaptcha lorsque l'état de la case de consentement change.
+});
+// Appelle initialement la fonction ChargeCaptcha pour charger le captcha.
+ChargeCaptcha();
+
+
+
+
+// Ajouter le captcha : 
+// <div class="g-recaptcha" data-sitekey="6LexHVsmAAAAAPSpKHCO00Gsc5WCL86evtucAbwv">
+// </div>
+
+// Ajouter une coche pour activer l'affichage du captcha :
+// <input type="checkbox" id="consentement" name="consentement">

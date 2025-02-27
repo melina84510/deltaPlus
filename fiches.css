@@ -1,0 +1,108 @@
+main {
+    min-height: 80vh;
+}
+
+h1{
+    color: #11263B;
+    /* width: auto; */
+    position: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1::before, h1::after {
+    content: "";
+    background-color: #FFCC00;
+    height: 5px;
+    width: 200px;
+    display: block;
+    margin: 0 10px;
+}
+
+h2{
+    background-color: #FFCC00;
+    border-radius: 20px;
+    padding: 10px;
+}
+#plus{
+    width: 60px;
+    height: 60px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row div{
+    background-color: #11263B;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 450px;
+}
+
+.row div p{
+    color: white;
+}
+
+.fondfiche{
+    background-color:rgba(17, 38, 59, 1);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.fondfiche ol > li {
+    font-family: opensansregular;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.fondfiche h3, .fondfiche h3 ::marker {
+    color: white;
+    font-family: opensansregular;
+    font-size: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #FFCC00;
+    display: inline-block;
+}
+
+p{
+    color: white;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid #11263B;
+    background-color: #11263B;
+    margin-top: 30px;
+  }
+ 
+ tr > td{
+    border: 1px solid white;
+    text-align: center;
+    background-color: white;
+    font-family: opensansregular;
+    font-size: 20px;
+  }
+ 
+ th,td {
+   padding: 20px;
+ }
+ 
+ th{
+    font-size: 20px;
+    font-family: opensansregular;
+    color: white;
+    background-color: #11263B;
+ }

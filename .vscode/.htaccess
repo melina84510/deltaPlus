@@ -1,0 +1,2 @@
+# Sécurise ce dossier au cas il se retrouve en ligne.
+Deny from all

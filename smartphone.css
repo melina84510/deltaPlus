@@ -1,0 +1,148 @@
+@media (max-width: 768px) {
+    .fam_img  {
+        justify-content: flex-start;
+}
+}
+
+.burger {
+    display: block;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+}
+
+nav, .cachemobile {
+    display: none;
+}
+
+.cachebureau{
+    display: block;
+}
+
+nav > ul {
+    position: relative;
+    top: 50px;
+    flex-direction: column;
+    background-color: #ffcc00;
+    text-align: right;
+    align-items: end;
+ }
+ nav > ul > li > a::after{
+    display: none;
+ }
+ 
+nav ul ul {
+    display: none !important;
+}
+
+h1{
+    font-size: 30px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 0px;
+ }
+
+ h3 {
+    font-size: 18px;
+}
+
+h4{
+    font-size: 15px;
+}
+
+p{
+    font-size: 14px;
+}
+
+a{
+    font-size: 15px;
+}
+
+.case, .row{
+    margin: 10px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+.case > div > a{
+    font-size: 15px;
+}
+
+.case > div{
+    background-color: #ffcc00;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer a{
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot p {
+    font-size: 15px;
+}
+
+.backgroundbleu, .fam_img, .smart, .groupe{
+    padding: 0px;
+    margin-top: 10px;
+    max-width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.chiffres{
+    gap: 20px !important;
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.harnais{
+    width: 100%;
+}
+
+.mark {
+    grid-template-columns: 1fr;
+}
+
+.mark > div:first-child {
+    display: none;
+}
+
+article > div {
+    flex-direction: column;
+}
+
+article h4, article > div p{
+    color: white;
+    font-size: 15px;
+}
+
+article p{
+    color: white;
+    font-size: 12px;
+}
+
+.of{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.of a {
+    margin: 10px;
+    text-align: center;
+}

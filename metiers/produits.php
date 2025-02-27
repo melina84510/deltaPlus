@@ -5,7 +5,7 @@
 <meta name="description" content="Découvrez les opportunités de carrière liées aux produits chez Delta Plus, leader en fabrication d'Équipements de Protection Individuelle (EPI). Rejoignez notre équipe innovante et participez au développement de solutions de protection de pointe.">
 
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+
 <main>
     <section>
         <div class="entrepot">

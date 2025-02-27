@@ -12,7 +12,7 @@
             <h1>
                 Marketing
             </h1>
-            <img class="groupe" src="images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI)."> 
+            <img class="groupe" src="/images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI)."> 
         </div>
     </section>
     <section>
@@ -23,44 +23,44 @@
     </section>
     <section class="mark">
         <div>
-            <img src="images/enjoysafety2.webp" alt="slogan de Delta Plus">
+            <img src="/images/enjoysafety2.webp" alt="slogan de Delta Plus">
         </div>
         <div>
             <figure>
                 <figcaption><a href="fiches.php?fiche=assistantcom"></a></figcaption>
-                <img src="images/assistantcom.webp" alt="">
+                <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
                 <figcaption><a href="fiches.php?fiche=graphiste"></a></figcaption>
-                <img src="images/graphiste.webp" alt="">
+                <img src="/images/graphiste.webp" alt="">
             </figure>
             <figure>
                 <figcaption><a href="fiches.php?fiche=chargcom"></a></figcaption>
-                <img src="images/web.webp" alt="">
+                <img src="/images/web.webp" alt="">
             </figure>
             <figure>
                 <figcaption><a href="fiches.php?fiche=rmarketdigi"></a></figcaption>
-                <img src="images/communication.webp" alt="">
+                <img src="/images/communication.webp" alt="">
             </figure>
             <figure>
                 <figcaption><a href="fiches.php?fiche=rmerch"></a></figcaption>
-                <img src="images/assistantcom.webp" alt="">
+                <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
                 <figcaption><a href="fiches.php?fiche=dirmarket"></a></figcaption>
-                <img src="images/assistantcom.webp" alt="">
+                <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
                 <figcaption><a href="fiches.php?fiche=chargcomju"></a></figcaption>
-                <img src="images/assistantcom.webp" alt="">
+                <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
                 <figcaption><a href="fiches.php?fiche=commanager"></a></figcaption>
-                <img src="images/assistantcom.webp" alt="">
+                <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
                 <figcaption><a href="fiches.php?fiche=comweb"></a></figcaption>
-                <img src="images/assistantcom.webp" alt="">
+                <img src="/images/assistantcom.webp" alt="">
             </figure>
         </div>
     </section>

@@ -12,7 +12,7 @@
                 <h1>
                     Nos mentions légales
                 </h1>
-                <img class="groupe" src="images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
+                <img class="groupe" src="/images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
             </div>
         </section>
         <section>

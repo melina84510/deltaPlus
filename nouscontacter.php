@@ -10,7 +10,7 @@
     <section>
         <div class="entrepot">
             <h1>Candidatures</h1>
-            <img class="groupe" src="images/carriere.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
+            <img class="groupe" src="/images/carriere.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
         </div>
     </section>
     <section>
@@ -248,7 +248,7 @@
     </section>
     <section>
         <div>
-            <img class="groupe" src="images/carriere.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
+            <img class="groupe" src="/images/carriere.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
         </div>
     </section>
 </main>

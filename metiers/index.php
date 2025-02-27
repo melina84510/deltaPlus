@@ -10,7 +10,7 @@
         <section>
             <div class="entrepot">
                 <h1>Carrières</h1>
-                <img class="groupe" src="images/carriere.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
+                <img class="groupe" src="/images/carriere.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
             </div>
             <div>
                 <p class="important">Prêt.e à nous rejoindre ?</p>
@@ -67,10 +67,10 @@
         <section>
             <div class="grid2">
                 <div>
-                    <img src="images/domaine.webp" alt="les différents domaine d'activités présent chez Delta Plus">
+                    <img src="/images/domaine.webp" alt="les différents domaine d'activités présent chez Delta Plus">
                 </div>
                 <div class="offre">
-                    <img src="images/enjoysafety.webp" alt="slogan de Delta Plus Apt">
+                    <img src="/images/enjoysafety.webp" alt="slogan de Delta Plus Apt">
                 </div>
             </div>
         </section>
@@ -99,14 +99,14 @@
                         </p>
                     </div>
                     <div>
-                        <img class="droite" src="images/delta.webp" alt="Pourquoi choisir Delta Plus?">
+                        <img class="droite" src="/images/delta.webp" alt="Pourquoi choisir Delta Plus?">
                     </div>
                 </div>
             </div>
         </section>
         <section>
             <div>
-                <img class="groupe" src="images/carriere.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
+                <img class="groupe" src="/images/carriere.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
             </div>
         </section>
     </main>

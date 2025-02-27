@@ -12,7 +12,7 @@
                 <h1>
                     Le Groupe
                 </h1>
-                <img class="groupe" src="images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
+                <img class="groupe" src="/images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
             </div>
             <div>
                 <h2>Protéger les hommes et les femmes au travail est notre priorité</h2>
@@ -72,7 +72,7 @@
                         <p>Evolution du chiffre d’affaires</p>
                     </div>
                     <div>
-                        <img src="images/activite.webp" alt="Evolution du chiffre d’affaires">
+                        <img src="/images/activite.webp" alt="Evolution du chiffre d’affaires">
                     </div>
                     <div>
                         <p>1 groupe familial & indépendant</p>
@@ -106,7 +106,7 @@
                     </p>
                 </div>
                 <div>
-                    <img class="fam_img" src="images/famille.webp" alt="Photo du fondateur de l'entreprise et de son fils jérome Benoit, montrant les deux générations ensemble, symbolisant la continuité et l'engagement familial.">
+                    <img class="fam_img" src="/images/famille.webp" alt="Photo du fondateur de l'entreprise et de son fils jérome Benoit, montrant les deux générations ensemble, symbolisant la continuité et l'engagement familial.">
                 </div>
             </div>
             <div>
@@ -114,7 +114,7 @@
                     <h2 id="construction">Les étapes de la construction</h2>
                 </div>
                 <div>
-                    <img class="backgroundbleu" src="images/fabrication.webp" alt="schéma de la fabrication chez Delta Plus">
+                    <img class="backgroundbleu" src="/images/fabrication.webp" alt="schéma de la fabrication chez Delta Plus">
                 </div>
             </div>
             <div>
@@ -136,7 +136,7 @@
                     </p>
                 </div>
                 <div>
-                    <img class="smart" src="images/identite.webp" alt="Notre offre produit est construite suivant le triptyque Protection, Confort, Valeur.">
+                    <img class="smart" src="/images/identite.webp" alt="Notre offre produit est construite suivant le triptyque Protection, Confort, Valeur.">
                 </div>
             </div>
         </section>
@@ -165,7 +165,7 @@
         </section>
         <section>
             <div>
-                <img class="groupe" src="images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
+                <img class="groupe" src="/images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
             </div>
         </section>
     </main>

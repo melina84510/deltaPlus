@@ -2,34 +2,34 @@
 <body>
 <header>
     <div class="logo">
-       <a href="./"><img src="images/logo.svg" alt="logoLogo de Delta Plus, représentant le nom de l'entreprise en lettres stylisées sur fond bleu."></a>
+       <a href="./"><img src="/images/logo.svg" alt="logoLogo de Delta Plus, représentant le nom de l'entreprise en lettres stylisées sur fond bleu."></a>
     </div>
     <div>
        <div class="burger">
-          <img id="bouton" src="images/burger.svg" alt="">
+          <img id="bouton" src="/images/burger.svg" alt="">
        </div>
        <nav id="nav">
          <ul>
             <li>
-               <a href="index">Accueil</a>
+               <a href="/">Accueil</a>
             </li>
             <li>
-               <a href="apropos">A propos</a>
+               <a href="/apropos">A propos</a>
             </li>
             <li>
-               <a href="metiers">Nos Métiers</a>
+               <a href="/metiers">Nos Métiers</a>
                <ul>
-                  <li><a href="accueil">Accueil</a></li>
-                  <li><a href="finance">Finance</a></li>
-                  <li><a href="rh">Ressources humaines</a></li>
-                  <li><a href="informatique">Informatique</a></li>
-                  <li><a href="accueil">Commerce</a></li>
-                  <li><a href="finance">Export</a></li>
-                  <li><a href="logistique">Logistique</a></li>
-                  <li><a href="marketing">Marketing</a></li>
-                  <li><a href="achats">Achats</a></li>
+                  <li><a href="/metiers/accueil">Accueil</a></li>
+                  <li><a href="/metiers/finance">Finance</a></li>
+                  <li><a href="/metiers/rh">Ressources humaines</a></li>
+                  <li><a href="/metiers/informatique">Informatique</a></li>
+                  <li><a href="/metiers/accueil">Commerce</a></li>
+                  <li><a href="/metiers/finance">Export</a></li>
+                  <li><a href="/metiers/logistique">Logistique</a></li>
+                  <li><a href="/metiers/marketing">Marketing</a></li>
+                  <li><a href="/metiers/achats">Achats</a></li>
                   <li><a href="produits">Produits</a></li>
-                  <li><a href="servicegene">Service généraux</a></li>
+                  <li><a href="/metiers/servicegene">Service généraux</a></li>
                </ul>
             </li>
             <li><a href="offres">Nos Offres d'emplois</a></li>

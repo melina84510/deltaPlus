@@ -1,18 +1,18 @@
 @font-face {
     font-family: opensanscondensedbold;
-    src: url(fonts/open-sans-condensed.bold.ttf);
+    src: url(/fonts/open-sans-condensed.bold.ttf);
     font-display: swap;
  }
  
  @font-face {
     font-family: opensansregular;
-    src: url(fonts/OpenSans-Regular.ttf);
+    src: url(/fonts/OpenSans-Regular.ttf);
     font-display: swap;
  }
  
  @font-face {
     font-family: opensanscondensedlightitalic;
-    src: url(fonts/open-sans-condensed.light-italic.ttf);
+    src: url(/fonts/open-sans-condensed.light-italic.ttf);
     font-display: swap;
  }
 
@@ -20,7 +20,7 @@
     font-family: 'Social Shapes';
     font-style: normal;
     font-weight: 400;
-    src: url(fonts/symbol.woff2) format('woff2');
+    src: url(/fonts/symbol.woff2) format('woff2');
     font-display: swap;
   }
 
@@ -28,7 +28,7 @@
     font-family: 'Icons South St';
     font-style: normal;
     font-weight: 250;
-    src: url(fonts/IconsSouthSt.ttf);
+    src: url(/fonts/IconsSouthSt.ttf);
     font-display: swap;
   }
 
@@ -341,7 +341,7 @@ main a{
 }
 
 .harnais{
-    background-image: url('images/carriere2.webp');
+    background-image: url('/images/carriere2.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

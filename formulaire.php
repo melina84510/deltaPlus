@@ -7,7 +7,7 @@
     <section>
         <div class="entrepot">
             <h1>Nos offres d'emploi Administrateur</h1>
-            <img class="groupe" src="images/offres.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
+            <img class="groupe" src="/images/offres.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
         </div>
     </section>
     <section class="sform">

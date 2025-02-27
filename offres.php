@@ -9,7 +9,7 @@
         <section>
             <div class="entrepot">
                 <h1>Nos offres d'emploi</h1>
-                <img class="groupe" src="images/offres.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
+                <img class="groupe" src="/images/offres.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
             </div>
             <div>
                 <h2>
@@ -77,7 +77,7 @@
         </section>
         <section>
             <?php include('images.php'); ?>
-            <img class="groupe" src="images/offres.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
+            <img class="groupe" src="/images/offres.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
         </section>
     </main>
 </body>

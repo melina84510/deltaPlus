@@ -1,11 +1,11 @@
-<?php include('config.php'); ?>
-<?php include('head.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
 
 <title>Carrières chez Delta Plus | Rejoignez notre Équipe Leader en EPI</title>
 <meta name="description" content="Explorez les opportunités de carrière chez Delta Plus, une entreprise familiale leader dans la fabrication d'Équipements de Protection Individuelle (EPI). Découvrez comment vous pouvez rejoindre notre équipe dynamique et contribuer à notre succès.">
 
 <body>
-<?php include('header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
     <main>
         <section>
             <div class="entrepot">
@@ -62,7 +62,7 @@
             <div>
                 <h2>Je choisi le service qui me correspond</h2>
             </div>
-            <?php include('listesservices.php'); ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/listesservices.php'; ?>
         </section>
         <section>
             <div class="grid2">
@@ -110,4 +110,4 @@
             </div>
         </section>
     </main>
-    <?php include('footer.php'); ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>

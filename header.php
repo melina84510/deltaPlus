@@ -22,7 +22,7 @@
                   <li><a href="/metiers/accueil">Accueil</a></li>
                   <li><a href="/metiers/finance">Finance</a></li>
                   <li><a href="/metiers/rh">Ressources humaines</a></li>
-                  <li><a href="/metiers/informatique">Informatique</a></li>
+                  <li><a href="/metiers/it">Informatique</a></li>
                   <li><a href="/metiers/accueil">Commerce</a></li>
                   <li><a href="/metiers/finance">Export</a></li>
                   <li><a href="/metiers/logistique">Logistique</a></li>

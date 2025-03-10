@@ -1,11 +1,11 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Opportunités de Carrière dans le Service Logistique | Delta Plus</title>
 <meta name="description" content="Découvrez les offres d'emploi dans le service logistique de Delta Plus. Rejoignez une entreprise leader en EPI et contribuez à l'optimisation de nos chaînes d'approvisionnement et de distribution.">
 
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>  
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>  
 <main>
     <section>
         <div class="entrepot">
@@ -65,4 +65,4 @@
         </div>
     </section>
 </main>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

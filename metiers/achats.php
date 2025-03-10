@@ -1,11 +1,11 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Emplois au Service Achat chez Delta Plus | Rejoignez Notre Équipe Dynamique</title>
 <meta name="description" content="Explorez les opportunités de carrière au service achat de Delta Plus, leader en fabrication d'Équipements de Protection Individuelle (EPI). Rejoignez une équipe dynamique et contribuez à l'optimisation de nos processus d'achat.">
 
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
 <main>
     <section>
         <div class="entrepot">
@@ -49,4 +49,4 @@
         </div>
     </section>
 </main>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

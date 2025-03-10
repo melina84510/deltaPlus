@@ -1,11 +1,11 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Emplois au Service Marketing chez Delta Plus | Rejoignez Notre Équipe Créative</title>
 <meta name="description" content="Explorez les opportunités de carrière au service marketing de Delta Plus, leader en fabrication d'Équipements de Protection Individuelle (EPI). Rejoignez notre équipe créative et contribuez à développer des stratégies marketing innovantes pour promouvoir nos produits.">
 
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>  
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>  
 <main>
     <section>
         <div class="entrepot">
@@ -65,4 +65,4 @@
         </div>
     </section>
 </main>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

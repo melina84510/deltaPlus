@@ -1,11 +1,11 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Emplois aux Services Généraux chez Delta Plus | Rejoignez Notre Équipe Polyvalente</title>
 <meta name="description" content="Découvrez les opportunités de carrière aux services généraux de Delta Plus, leader en fabrication d'Équipements de Protection Individuelle (EPI). Rejoignez notre équipe polyvalente et contribuez à l'efficacité des opérations et à la gestion des installations de l'entreprise.">
 
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>  
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>  
 <main>
     <section>
         <div class="entrepot">
@@ -38,4 +38,4 @@
         </div>
     </section>
 </main>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

@@ -1,4 +1,4 @@
-<?php include('config.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
 
 <?php   
 if ($_SESSION['USER_ROLE'] === 'admin') {
@@ -8,8 +8,8 @@ if ($_SESSION['USER_ROLE'] === 'admin') {
     }
 ?>
 
-<?php include('head.php'); ?>
-<?php include('header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
 
 <main>
     <section>
@@ -227,4 +227,4 @@ if ($_SESSION['USER_ROLE'] === 'admin') {
     </section>
 </main>
 
-<?php include('footer.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

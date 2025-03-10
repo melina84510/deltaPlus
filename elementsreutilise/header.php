@@ -17,7 +17,7 @@
                <a href="/apropos">A propos</a>
             </li>
             <li>
-               <a href="/metiers">Nos Métiers</a>
+               <a href="/metiers/index.php">Nos Métiers</a>
                <ul>
                   <li><a href="/metiers/accueil">Accueil</a></li>
                   <li><a href="/metiers/finance">Finance</a></li>
@@ -28,12 +28,12 @@
                   <li><a href="/metiers/logistique">Logistique</a></li>
                   <li><a href="/metiers/marketing">Marketing</a></li>
                   <li><a href="/metiers/achats">Achats</a></li>
-                  <li><a href="produits">Produits</a></li>
+                  <li><a href="/metiers/produits">Produits</a></li>
                   <li><a href="/metiers/servicegene">Service généraux</a></li>
                </ul>
             </li>
-            <li><a href="offres">Nos Offres d'emplois</a></li>
-            <li><a href="nouscontacter">Nous contacter</a></li>
+            <li><a href="/offres">Nos Offres d'emplois</a></li>
+            <li><a href="/nouscontacter">Nous contacter</a></li>
             <li class="cachemobile">
             <a href="https://deltaplus.optimhum.fr/index">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="24" height="24" class="size-6">

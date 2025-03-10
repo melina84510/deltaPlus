@@ -42,8 +42,8 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
         }
     }
 }
-include('head.php');
-include('header.php');
+include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php';
 
 //  : si $_SESSION['LOGGED_USER'] n'existe pas alors afficher le formulaire
 if (!isset($_SESSION['LOGGED_USER'])) : ?>
@@ -106,4 +106,4 @@ if (!isset($_SESSION['LOGGED_USER'])) : ?>
 
 endif; ?>
 
-<?php include('footer.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

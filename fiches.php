@@ -1,12 +1,12 @@
-<?php include('config.php'); ?>
-<?php include('head.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Fiches métiers chez Delta Plus</title>
 <meta name="description" content="retrouvez tout les profils métier présent chez Delta Plus">
 <link rel="stylesheet" href="fiches.css">
 
 <body>
-<?php include('header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
 <main>
 
 
@@ -39,4 +39,4 @@ if ($fiche !== null) {
 ?>
 
 </main>
-<?php include('footer.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

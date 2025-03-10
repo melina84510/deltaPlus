@@ -1,11 +1,11 @@
-<?php include('config.php'); ?>
-<?php include('head.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
     <link rel="stylesheet" href="nouscontacter.css">
     <title>Contactez Delta Plus | Leader en EPI & Opportunités d'Emploi</title>
     <meta name="description" content="Contactez Delta Plus, leader en fabrication d'EPI, pour toute question concernant nos produits de protection individuelle ou pour en savoir plus sur nos opportunités d'emploi. Nous sommes là pour vous aider !">
     </head>
 <body>
-<?php include('header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
 <main>
     <section>
         <div class="entrepot">
@@ -23,13 +23,13 @@
         </div>
         <div class="case">
             <div>
-                <a href="metiers">Nos métiers</a>
+                <a href="/metiers">Nos métiers</a>
             </div>
             <div>
-                <a href="offres">Nos offres emploi</a>
+                <a href="/offres">Nos offres emploi</a>
             </div>
             <div>
-                <a href="nouscontacter">Candidature spontanée</a>
+                <a href="/nouscontacter">Candidature spontanée</a>
             </div>
         </div>
     </section>
@@ -253,4 +253,4 @@
     </section>
 </main>
 </body>
-<?php include('footer.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

@@ -1,5 +1,5 @@
 <?php 
-require_once 'config.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; 
 
 //traitement du formulaire de connexion
 if ($_SERVER['REQUEST_METHOD']=='POST') {
@@ -42,8 +42,8 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
     }
 }
 
-include('head.php');
-include('header.php');
+include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php';
 //  : si $_SESSION['LOGGED_USER'] n'existe pas alors afficher le formulaire
 if (!isset($_SESSION['LOGGED_USER'])) : ?>
 
@@ -96,4 +96,4 @@ else : ?>
 
 
 
-<?php include('footer.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

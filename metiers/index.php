@@ -1,11 +1,11 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Carrières chez Delta Plus | Rejoignez notre Équipe Leader en EPI</title>
 <meta name="description" content="Explorez les opportunités de carrière chez Delta Plus, une entreprise familiale leader dans la fabrication d'Équipements de Protection Individuelle (EPI). Découvrez comment vous pouvez rejoindre notre équipe dynamique et contribuer à notre succès.">
 
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
     <main>
         <section>
             <div class="entrepot">
@@ -24,13 +24,13 @@
                 </h2>
             <div class="case">
                 <div>
-                    <a href="metiers">Nos métiers</a>
+                    <a href="/metiers">Nos métiers</a>
                 </div>
                 <div>
-                    <a href="offres">Nos offres emploi</a>
+                    <a href="/offres">Nos offres emploi</a>
                 </div>
                 <div>
-                    <a href="nouscontacter">Candidature spontanée</a>
+                    <a href="/nouscontacter">Candidature spontanée</a>
                 </div>
             </div>
         </section>
@@ -110,4 +110,4 @@
             </div>
         </section>
     </main>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

@@ -1,17 +1,17 @@
-<?php include('config.php'); ?>
-<?php include('head.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Candidats spontannés et postuler pour des offres emplois delta plus</title>
 <meta name="description" content="retrouver toutes les offres d'emplois concernant l'entreprise Delta Plus">
 
-<?php include('header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
     <main>
         <section>
             <div class="entrepot">
                 <h1>Nos candidatures</h1>
                 <img class="groupe" src="/images/offres.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
             </div>
-            <?php include('listeservices.php'); ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/listeservices.php'; ?>
         </section>
         <section>
             <?php
@@ -65,4 +65,4 @@
         </section>
     </main>
 </body>
-<?php include('footer.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

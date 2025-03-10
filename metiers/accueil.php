@@ -1,11 +1,11 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Emplois au Service Accueil chez Delta Plus | Rejoignez notre Équipe d'Excellence</title>
 <meta name="description" content="Découvrez les opportunités d'emploi au service accueil de Delta Plus, leader en fabrication d'Équipements de Protection Individuelle (EPI). Postulez pour faire partie d'une équipe dédiée à offrir un service client exceptionnel.">
 
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
 <main>
     <section>
         <div class="entrepot">
@@ -37,4 +37,4 @@
         </div>
     </section>
 </main>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

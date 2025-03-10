@@ -1,11 +1,11 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Emplois au Service RH chez Delta Plus | Rejoignez Notre Équipe RH Dynamique</title>
 <meta name="description" content="Explorez les opportunités de carrière au service des ressources humaines de Delta Plus, leader en fabrication d'Équipements de Protection Individuelle (EPI). Rejoignez notre équipe RH dynamique et contribuez à la gestion des talents et au développement des ressources humaines au sein de notre entreprise.">
 
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?> 
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?> 
 <main>
     <section>
         <div class="entrepot">
@@ -53,4 +53,4 @@
         </div>
     </section>
 </main>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

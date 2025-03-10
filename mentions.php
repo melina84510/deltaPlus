@@ -1,11 +1,11 @@
-<?php include('config.php'); ?>
-<?php include('head.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Mentions Légales de Delta Plus | Informations Juridiques et Réglementaires</title>
 <meta name="description" content="Consultez les mentions légales de Delta Plus, leader en fabrication d'Équipements de Protection Individuelle (EPI). Retrouvez ici toutes les informations juridiques et réglementaires concernant notre entreprise et nos services.">
 
 <body>
-<?php include('header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
     <main>
         <section>
             <div class="entrepot">
@@ -188,4 +188,4 @@
             </div>
         </section>
     </main>
-<?php include('footer.php'); ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

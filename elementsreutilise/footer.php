@@ -45,11 +45,11 @@
       </div>
    </div>
    <div>
-      <p><a href="mentions">Mentions légales</a></p>
+      <p><a href="/mentions">Mentions légales</a></p>
       <div></div>
    </div>
    <div>
-      <p><a href="nouscontacter">Nous Contacter</a></p>
+      <p><a href="/nouscontacter">Nous Contacter</a></p>
       <div></div>
    </div>
 </footer>

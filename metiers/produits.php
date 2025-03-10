@@ -1,5 +1,5 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Métiers liés aux Produits chez Delta Plus | Rejoignez Notre Équipe Innovante</title>
 <meta name="description" content="Découvrez les opportunités de carrière liées aux produits chez Delta Plus, leader en fabrication d'Équipements de Protection Individuelle (EPI). Rejoignez notre équipe innovante et participez au développement de solutions de protection de pointe.">
@@ -65,4 +65,4 @@
         </div>
     </section>
 </main>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

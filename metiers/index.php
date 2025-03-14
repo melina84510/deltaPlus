@@ -24,13 +24,13 @@
                 </h2>
             <div class="case">
                 <div>
-                    <a href="/metiers">Nos métiers</a>
+                    <a href="/metiers/index.php">Nos métiers</a>
                 </div>
                 <div>
-                    <a href="/offres">Nos offres emploi</a>
+                    <a href="/offres/index.php">Nos offres emploi</a>
                 </div>
                 <div>
-                    <a href="/nouscontacter">Candidature spontanée</a>
+                    <a href="/pages/nouscontacter">Candidature spontanée</a>
                 </div>
             </div>
         </section>
@@ -62,7 +62,7 @@
             <div>
                 <h2>Je choisi le service qui me correspond</h2>
             </div>
-            <?php include $_SERVER['DOCUMENT_ROOT'] . '/listesservices.php'; ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/metiers/listesservices.php'; ?>
         </section>
         <section>
             <div class="grid2">

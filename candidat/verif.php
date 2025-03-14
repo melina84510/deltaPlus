@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+ include $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 
 if (isset($_GET['token'])) {
     $token = $_GET['token'];
@@ -14,7 +14,7 @@ if (isset($_GET['token'])) {
         $updateStmt = $db->prepare('UPDATE inscription SET active = 1 WHERE token = :token');
         $updateStmt->execute(['token' => $token]);
 
-        echo '<meta http-equiv="refresh" content="0;url=ucandidats.php">';
+        echo '<meta http-equiv="refresh" content="0;url=/loggin/ucandidats.php">';
     } else {
         echo "Token invalide.";
     }

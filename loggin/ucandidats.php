@@ -1,6 +1,5 @@
 <?php
-
-require_once 'config.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 
 //traitement du formulaire de connexion
 if ($_SERVER['REQUEST_METHOD']=='POST') {
@@ -29,6 +28,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
                         // echo "mot de passe OK !"; 
                 //         //si utilisateur reconnu, entrer ses infos en session : 
                         $_SESSION['LOGGED_USER'] = $retoursql['email'];
+                        $_SESSION['USER_ROLE'] = 'candidat';
                         $_SESSION['USER_ID'] = $retoursql['id'];
                         $_SESSION['NOMPRENOM'] = $retoursql['nom'] . ' ' . $retoursql['prenom'];
                 //         $_SESSION['LOGGED_USER'] = ['mail' => $user['mail'], 'id' => $user ['id'],];
@@ -51,7 +51,7 @@ if (!isset($_SESSION['LOGGED_USER'])) : ?>
 <main>
     <section>
         <div>
-            <h2>Votre espace</h2>
+            <h2>Votre espace utilisateur</h2>
         </div>
         <form action="" method="POST">
             <div>
@@ -89,14 +89,14 @@ if (!isset($_SESSION['LOGGED_USER'])) : ?>
     <section>
         <h2 style="margin-bottom: 15px;">Bienvenue dans votre espace <?php echo htmlspecialchars($_SESSION['NOMPRENOM']); ?> !</h2>
         <div class='of'>
-            <a onclick="location.href='profil.php'">Mon profil</a>
-            <a onclick="location.href='doc.php'">Mes documents</a>
-            <a onclick="location.href='favoris.php'">Mes annonces</a>
-            <a onclick="location.href='messages.php'">Mes messages</a>
+            <a onclick="location.href='/candidat/profil.php'">Mon profil</a>
+            <a onclick="location.href='/candidat/doc.php'">Mes documents</a>
+            <a onclick="location.href='/candidat/favoris.php'">Mes annonces</a>
+            <a onclick="location.href='/candidat/messages.php'">Mes messages</a>
         </div>
     </section>
     <section>
-        <form action="logout.php" method="POST">
+        <form action="/loggin/logout.php" method="POST">
             <input type="submit" value="Déconnexion">
         </form>
     </section>

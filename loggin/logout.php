@@ -1,6 +1,6 @@
 <?php
 
-include('config.php');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 
 
 session_start();
@@ -17,9 +17,9 @@ if (isset($_SESSION['USER_ROLE'])) {
 
 // Rediriger selon le rôle sauvegardé
 if ($role == 'rh' || $role == 'admin') {
-    header("Location: open.php");
+    header("Location: /open.php");
 } else {
-    header("Location: ucandidats.php");
+    header("Location: /loggin/ucandidats.php");
 }
 
 // Détruire la session

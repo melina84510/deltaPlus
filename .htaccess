@@ -1,3 +1,4 @@
+Options -Indexes 
 
 Header set Referrer-Policy "no-referrer-when-downgrade"
 Header set X-Content-Type-Options "nosniff"

@@ -20,12 +20,12 @@
                 <p>Grâce à notre expertise, nous avons développé une gamme complète d’EPI, couvrant l’ensemble des besoins des travailleurs, de la tête aux pieds : protection de la tête, du corps, des mains, des pieds et des dispositifs antichute. Nos produits répondent aux normes les plus strictes, assurant ainsi une sécurité optimale sur les lieux de travail les plus exigeants.</p>
             </div>
             <div class="case">
-                <div><a href="apropos">En savoir plus?</a></div>
+                <div><a href="/pages/apropos">En savoir plus?</a></div>
             </div>
             <div>
                 <h2>Nos dernières offres</h2>
             </div>
-            <?php include('carrousseljob.php'); ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/offres/carrousseljob.php'; ?>
             <div>
                 <div>
                     <h2>Notre vision</h2>
@@ -40,7 +40,7 @@
             </div>
         </section>
         <section>
-            <?php include('images.php'); ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/images.php'; ?>
         </section>
         <section>
             <div>
@@ -53,7 +53,7 @@
             </div>
             <div class="case">
                 <div>
-                    <a href="/metiers">Trouvez le métier qui vous correspond?</a>
+                    <a href="/metiers/index.php">Trouvez le métier qui vous correspond?</a>
                 </div>
             </div>
             <div>
@@ -151,7 +151,7 @@
                     <a href="/offres">Nos offres d'emplois</a>
                 </div>
                 <div>
-                    <a href="/nouscontacter">Nous Contacter</a>
+                    <a href="/pages/nouscontacter">Nous Contacter</a>
                 </div>
         </section>
         <section>

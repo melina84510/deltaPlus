@@ -19,7 +19,7 @@
         <h2>
             Vous souhaitez découvrir les métiers d'Acheteur chez Delta Plus? Vous êtes au bon endroit.
         </h2>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/listesservices.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/metiers/listesservices.php'; ?>
     </section>
     <section class="mark">
         <div>
@@ -27,23 +27,23 @@
         </div>
         <div>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=dirachat">Directeur des Achats</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=dirachat">Directeur des Achats</a></figcaption>
                 <img src="/images/assistantcom.webp" alt="Directeur des achats en réunion, analysant des rapports de fournisseurs et négociant des contrats pour optimiser les coûts.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=rachat">Responsable des Achats</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=rachat">Responsable des Achats</a></figcaption>
                 <img src="/images/graphiste.webp" alt="Responsable des achats analysant des données sur ordinateur et discutant des stratégies d'achat pour optimiser les stocks.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=acheteur">Acheteurs</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=acheteur">Acheteurs</a></figcaption>
                 <img src="/images/web.webp" alt="Acheteur examinant des échantillons de produits et discutant des conditions d'achat avec des fournisseurs pour évaluer les meilleures options et négocier les prix.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=assisachat">Assistant des Achats</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=assisachat">Assistant des Achats</a></figcaption>
                 <img src="/images/communication.webp" alt="Acheteur examinant des échantillons et discutant des conditions avec des fournisseurs pour négocier les meilleurs prix.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=purchase">Purchase Leader</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=purchase">Purchase Leader</a></figcaption>
                 <img src="/images/assistantcom.webp" alt="Purchase leader supervisant des réunions, analysant des rapports et élaborant des stratégies pour optimiser les achats.">
             </figure>
         </div>

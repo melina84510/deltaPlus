@@ -1,4 +1,4 @@
-<?php include('config.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php';?>
 
 <title>Delta Plus | Entreprise Familiale Leader en Fabrication d'EPI</title>
@@ -141,7 +141,7 @@
             </div>
         </section>
         <section>
-        <?php include('images.php'); ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/images.php'; ?>
         </section>
         <section>
             <div>
@@ -154,13 +154,13 @@
             </div>
             <div class="case">
                 <div>
-                    <a href="metiers">Nos Métiers</a>
+                    <a href="/metiers/index.php">Nos Métiers</a>
                 </div>
                 <div>
-                    <a href="offres">Nos offres d'emplois</a>
+                    <a href="/offres/index.php">Nos offres d'emplois</a>
                 </div>
                 <div>
-                    <a href="nouscontacter">Nous Contacter</a>
+                    <a href="/pages/nouscontacter">Nous Contacter</a>
                 </div>
         </section>
         <section>

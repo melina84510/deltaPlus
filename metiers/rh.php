@@ -19,7 +19,7 @@
         <h2>
             Vous souhaitez découvrir les métiers du Marketing chez Delta Plus? Vous êtes au bon endroit.
         </h2>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/listesservices.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/metiers/listesservices.php'; ?>
     </section>
     <section class="mark">
         <div>
@@ -27,27 +27,27 @@
         </div>
         <div>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=assistantrh">Assistant(e) RH</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=assistantrh">Assistant(e) RH</a></figcaption>
                 <img src="/images/assistantcom.webp" alt="Assistant(e) RH gérant les tâches administratives, le recrutement et le suivi des employés pour soutenir les ressources humaines.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=drh">DRH</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=drh">DRH</a></figcaption>
                 <img src="/images/graphiste.webp" alt="Directeur des Ressources Humaines (DRH) supervisant les stratégies RH, la gestion des talents et les politiques de l'entreprise.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=responsablepaie">Responsable paie</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=responsablepaie">Responsable paie</a></figcaption>
                 <img src="/images/web.webp" alt="Responsable paie traitant les fiches de paie, assurant la conformité et la précision des rémunérations des employés.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=rrh">Responsable RH</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=rrh">Responsable RH</a></figcaption>
                 <img src="/images/communication.webp" alt="Responsable RH supervisant les opérations RH, le développement des talents et la gestion des relations avec les employés.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=juriste">Juriste en droit social</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=juriste">Juriste en droit social</a></figcaption>
                 <img src="/images/assistantcom.webp" alt="Juriste en droit social conseillant sur les questions de législation du travail et gérant les litiges liés aux relations employeur-employé.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=assistantrh">Assistante RH</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=assistantrh">Assistante RH</a></figcaption>
                 <img src="/images/assistantcom.webp" alt="Assistante RH soutenant les équipes RH dans les tâches administratives, le recrutement et la gestion des dossiers des employés.">
             </figure>
         </div>

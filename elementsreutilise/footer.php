@@ -1,18 +1,7 @@
 <div class="boutons">
     <button onclick="goBack()">Retour</button>
     <button onclick="goTop()" id="topBtn">Haut de page</button>
-    <script>
-         function goBack() {
-               window.history.back();
-         }
-         function goTop() {
-               window.scrollTo({ top: 0, behavior: 'smooth' });
-         }
-         function closePopup() {
-            document.getElementById("popup").style.display = "none";
-            window.location.href =  window.location.href = 'https://deltaplus.optimhum.fr/ucandidats';;
-         }
-    </script>
+    <script src="/js/fonctions.js"></script>
 
 </div>
 <footer>
@@ -45,11 +34,11 @@
       </div>
    </div>
    <div>
-      <p><a href="/mentions">Mentions légales</a></p>
+      <p><a href="/pages/mentions">Mentions légales</a></p>
       <div></div>
    </div>
    <div>
-      <p><a href="/nouscontacter">Nous Contacter</a></p>
+      <p><a href="/pages/nouscontacter">Nous Contacter</a></p>
       <div></div>
    </div>
 </footer>

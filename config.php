@@ -23,7 +23,7 @@ catch (Exception $e)
     die('Erreur : ' . $e->getMessage());
 }
 
-require_once 'fonctions.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/fonctions/fonctions.php';
 $erreur = 0;
 
 $listeservices = [

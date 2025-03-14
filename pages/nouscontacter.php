@@ -29,7 +29,7 @@
                 <a href="/offres">Nos offres emploi</a>
             </div>
             <div>
-                <a href="/nouscontacter">Candidature spontanée</a>
+                <a href="/pages/nouscontacter">Candidature spontanée</a>
             </div>
         </div>
     </section>
@@ -244,7 +244,7 @@
         </div>
     </section>
     <section>
-        <?php include('images.php'); ?> 
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/images.php'; ?> 
     </section>
     <section>
         <div>

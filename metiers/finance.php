@@ -18,7 +18,7 @@
         <h2>
             Vous souhaitez découvrir les métiers du Marketing chez Delta Plus? Vous êtes au bon endroit.
         </h2>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/listesservices.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/metiers/listesservices.php'; ?>
     </section>
     <section class="mark">
         <div>

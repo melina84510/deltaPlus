@@ -19,7 +19,7 @@
         <h2>
             Vous souhaitez découvrir les métiers des servives généraux chez Delta Plus? Vous êtes au bon endroit.
         </h2>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/listesservices.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/metiers/listesservices.php'; ?>
     </section>
     <section class="mark">
         <div>
@@ -27,11 +27,11 @@
         </div>
         <div>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=gardien">Gardien</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=gardien">Gardien</a></figcaption>
                 <img src="/images/assistantcom.webp" alt="Gardien surveillant les espaces, assurant la sécurité et la maintenance des lieux tout en répondant aux besoins des occupants.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=coordinateur">Coordinateur des Services Généraux</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=coordinateur">Coordinateur des Services Généraux</a></figcaption>
                 <img src="/images/graphiste.webp" alt="Coordinateur des Services Généraux supervisant les opérations quotidiennes, la gestion des installations et les services de support pour l'entreprise.">
             </figure>
 

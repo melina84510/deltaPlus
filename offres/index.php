@@ -26,14 +26,14 @@
                     <a href="/offres">Nos offres emploi</a>
                 </div>
                 <div>
-                    <a href="/nouscontacter">Candidature spontanée</a>
+                    <a href="/pages/nouscontacter">Candidature spontanée</a>
                 </div>
             </div>
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/listeservices.php'); ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/offres/listeservices.php'); ?>
 
                 <?php
                 if (isset($_SESSION['LOGGED_USER'])){
-                    echo '<p><a href="/formulaire?action=ajout">Ajouter une annonce</a></p>';
+                    echo '<p><a href="formulaire?action=ajout">Ajouter une annonce</a></p>';
                 }
                 ?>
         </section>
@@ -65,18 +65,18 @@
                             echo '<p class="cacher" data-group="' . $a['id'] . '">' . $a['mission'] . "</p>";
                             echo '<h4 class="cacher" data-group="' . $a['id'] . "\">Profil :</h4>";
                             echo '<p class="cacher" data-group="' . $a['id'] . '">' . $a['profil'] . "</p>";
-                            echo '<p class="cacher" data-group="' . $a['id'] . '">' . '<a href="/nouscontacter?offre=' . $a['id'] . '">POSTULER</a></p>';
+                            echo '<p class="cacher" data-group="' . $a['id'] . '">' . '<a href="/pages/nouscontacter?offre=' . $a['id'] . '">POSTULER</a></p>';
                             echo '<p><a href="javascript:;" data-group="' . $a['id'] . '" onclick="AfficherPlus(this)">Plus d\'infos</a></p>';
                             if (isset($_SESSION['LOGGED_USER'])){
-                            echo '<p><a href="/formulaire?action=suppr&id=' . $a['id'] . '">Supprimer l\'annonce ' . $a['id'] . '</a></p>';
-                            echo '<p><a href="/formulaire?action=modif&id=' . $a['id'] . '">Modifier l\'annonce ' . $a['id'] . '</a></p>';
+                            echo '<p><a href="formulaire?action=suppr&id=' . $a['id'] . '">Supprimer l\'annonce ' . $a['id'] . '</a></p>';
+                            echo '<p><a href="formulaire?action=modif&id=' . $a['id'] . '">Modifier l\'annonce ' . $a['id'] . '</a></p>';
                         }
                         echo "</article>"; 
                     }
                 ?>
         </section>
         <section>
-            <?php include('images.php'); ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/images.php'; ?>
             <img class="groupe" src="/images/offres.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
         </section>
     </main>

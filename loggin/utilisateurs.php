@@ -4,7 +4,7 @@
 if ($_SESSION['USER_ROLE'] === 'admin') {
         echo '<a href="utilisateurs">Page utilisateurs</a>';
     } else {
-        header('Location: open');
+        header('Location: /open');
     }
 ?>
 

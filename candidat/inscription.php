@@ -1,3 +1,4 @@
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php';?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php';?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
 
@@ -175,7 +176,7 @@
                                 'token' => $token,
                             ]);
 
-                            $activationLink = "https://deltaplus.optimhum.fr/verif.php?token=" . urlencode($token);
+                            $activationLink = "https://deltaplus.optimhum.fr/candidat/verif.php?token=" . urlencode($token);
 
                             $to = $email; // Adresse email du destinataire
                             $subject = "Confirmation de votre inscription";

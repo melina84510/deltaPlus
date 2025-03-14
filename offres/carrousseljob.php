@@ -1,22 +1,5 @@
-
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
 <?php
-// Connexion à la base de données
-$host = 'localhost';
-$dbname = 'deltaplus';
-$username = 'deltaplus';
-$pass = 'thoo3ioxaizigo';
-
-try
-{
-    $db = new PDO('mysql:host=' . $host . ';dbname=' . $dbname . ';charset=utf8',$username,$pass);
-}
-catch (Exception $e)
-{
-    die('Erreur : ' . $e->getMessage());
-}
-
-require_once 'fonctions.php';
-$erreur = 0;
 
 // Récupérer les 4 dernières offres
 $query = $db->prepare("SELECT * FROM offres ORDER BY id DESC LIMIT 6");
@@ -52,7 +35,7 @@ $offres = $query->fetchAll(PDO::FETCH_ASSOC);
     function openPopupoffre(ref) {
         var xhr = new XMLHttpRequest();
 
-        xhr.open("GET", `detail_offre.php?ref=${ref}`);
+        xhr.open("GET", `/offres/detail_offre.php?ref=${ref}`);
 
         // Configurer la réponse en cas de succès
         xhr.onload = function () {

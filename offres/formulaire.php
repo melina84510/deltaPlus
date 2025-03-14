@@ -1,6 +1,6 @@
-<?php include('config.php'); ?>
-<?php include('head.php'); ?>
-<?php include('header.php'); ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
 
 <?php $erreur=0; ?>
 <main>
@@ -35,6 +35,10 @@
                         ]);
                         $ListeOffre = $AfficheOffre->FetchAll();
                         $remplir=true;
+
+                        if (empty($ListeOffre)) {
+                            header("Location: /offres/");
+                        }
 
                         // foreach ($ListeOffre as $a) {
                         //     echo "<article>";
@@ -303,4 +307,4 @@
             <?php } //Fermeture du else $_GET['action'] == 'suppr' ?>
     </main>
         </section>
-<?php include('footer.php'); ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

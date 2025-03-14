@@ -19,7 +19,7 @@
         <h2>
             Vous souhaitez découvrir les métiers de la Logistique chez Delta Plus? Vous êtes au bon endroit.
         </h2>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/listesservices.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/metiers/listesservices.php'; ?>
     </section>
     <section class="mark">
         <div>
@@ -27,39 +27,39 @@
         </div>
         <div>
             <figure>
-                <figcaption><a href="/fiches.php?fiche="></a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche="></a></figcaption>
                 <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche="></a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche="></a></figcaption>
                 <img src="/images/graphiste.webp" alt="">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche="></a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche="></a></figcaption>
                 <img src="/images/web.webp" alt="">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche="></a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche="></a></figcaption>
                 <img src="/images/communication.webp" alt="">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche="></a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche="></a></figcaption>
                 <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche="></a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche="></a></figcaption>
                 <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche="></a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche="></a></figcaption>
                 <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche="></a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche="></a></figcaption>
                 <img src="/images/assistantcom.webp" alt="">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=comweb"></a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=comweb"></a></figcaption>
                 <img src="/images/assistantcom.webp" alt="">
             </figure>
         </div>

@@ -50,7 +50,7 @@ if (!isset($_SESSION['LOGGED_USER'])) : ?>
 <main>
     <section>
         <div>
-            <h2>Votre espace</h2>
+            <h2>Espace Réservé</h2>
         </div>
         <form action="" method="POST">
             <div>
@@ -80,12 +80,12 @@ else : ?>
 <main>
     <section>
         <?php 
-            echo '<p class="of">' . $_SESSION['LOGGED_USER'] . ' est connecté ! <a href="offres">Offres</a> <a href="candidats">Candidatures</a> <a href="usercandidats">Candidats</a>';
+            echo '<p class="of">' . $_SESSION['LOGGED_USER'] . ' est connecté ! <a href="/offres/index.php">Offres</a> <a href="/candidat/candidats">Candidatures</a> <a href="usercandidats">Candidats</a>';
             if ($_SESSION['USER_ROLE'] === 'admin') {
-                echo ' <a href="utilisateurs">Utilisateurs</a></p>'; 
+                echo ' <a href="/loggin/utilisateurs">Utilisateurs</a></p>'; 
             }
         ?>
-        <form action="logout.php" method="POST">
+        <form action="/loggin/logout.php" method="POST">
             <input type="submit" value="Déconnexion">
         </form>
     </section>

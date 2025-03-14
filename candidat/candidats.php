@@ -11,7 +11,7 @@
                 <h1>Nos candidatures</h1>
                 <img class="groupe" src="/images/offres.webp" alt="Des hommes habillaient avec des EPI de chez delta plus">
             </div>
-            <?php include $_SERVER['DOCUMENT_ROOT'] . '/listeservices.php'; ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/offres/listeservices.php'; ?>
         </section>
         <section>
             <?php

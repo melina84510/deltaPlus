@@ -19,7 +19,7 @@
         <h2>
             Vous souhaitez découvrir les métiers de l'Accueil chez Delta Plus? Vous êtes au bon endroit.
         </h2>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/listesservices.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/metiers/listesservices.php'; ?>
     </section>
     <section class="mark">
         <div>
@@ -27,11 +27,11 @@
         </div>
         <div>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=assistanteadmin">Assistante Administrative Polyvalente</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=assistanteadmin">Assistante Administrative Polyvalente</a></figcaption>
                 <img src="/images/assistantcom.webp" alt="Assistant communication travaillant sur des supports de communication, organisant des événements ou rédigeant des contenus pour promouvoir les activités de l'entreprise.">
             </figure>
             <figure>
-                <figcaption><a href="/fiches.php?fiche=hotesseaccueil">Hôtesse d'Accueil</a></figcaption>
+                <figcaption><a href="/fiches/fiches.php?fiche=hotesseaccueil">Hôtesse d'Accueil</a></figcaption>
                 <img src="/images/graphiste.webp" alt="Graphiste travaillant sur un design créatif à l'ordinateur, utilisant des outils de conception graphique pour créer des visuels attractifs et professionnels.">
             </figure>
         </div>

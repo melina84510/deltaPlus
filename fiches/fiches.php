@@ -20,7 +20,7 @@ $fiche = isset($_GET['fiche']) ? $_GET['fiche'] : null;
 // }
 
 if ($fiche !== null) {
-    $lien = "fiches/$fiche.html";
+    $lien = "$fiche.html";
 
     if (file_exists($lien)) {
         include($lien);

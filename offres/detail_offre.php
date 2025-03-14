@@ -1,4 +1,4 @@
-<?php include('config.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
 
 <?php
 if (isset($_GET['ref'])) {
@@ -29,12 +29,12 @@ if (isset($_GET['ref'])) {
         echo '<p>' . htmlspecialchars($offres['mission']) . "</p>";
         echo '<h4>Profil :</h4>';
         echo '<p>' . htmlspecialchars($offres['profil']) . "</p>";
-        echo '<p>' . '<a href="/nouscontacter?offre=' . htmlspecialchars($offres['id']) . '">POSTULER</a></p>';
+        echo '<p>' . '<a href="/pages/nouscontacter?offre=' . htmlspecialchars($offres['id']) . '">POSTULER</a></p>';
 
         // Vérifier si l'utilisateur est connecté pour afficher les options de modification/suppression
         if (isset($_SESSION['LOGGED_USER'])){
-            echo '<p><a href="/formulaire?action=suppr&id=' . htmlspecialchars($offres['id']) . '">Supprimer l\'annonce ' . htmlspecialchars($offres['id']) . '</a></p>';
-            echo '<p><a href="/formulaire?action=modif&id=' . htmlspecialchars($offres['id']) . '">Modifier l\'annonce ' . htmlspecialchars($offres['id']) . '</a></p>';
+            echo '<p><a href="/offres/formulaire?action=suppr&id=' . htmlspecialchars($offres['id']) . '">Supprimer l\'annonce ' . htmlspecialchars($offres['id']) . '</a></p>';
+            echo '<p><a href="/offres/formulaire?action=modif&id=' . htmlspecialchars($offres['id']) . '">Modifier l\'annonce ' . htmlspecialchars($offres['id']) . '</a></p>';
         }
 
         echo "</article>";

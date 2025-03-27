@@ -59,6 +59,7 @@
                         echo "<p>Poste et service : " . $a[5] . " dans la catégorie " . $a['services'] . "</p>";
                         echo '<p><a href="' . $a['cv'] . '" target="_blank">Le CV</a></p>';
                         echo '<p><a href="' . $a['lettremotiv'] . '" target="_blank">La lettre de motivation</a></p>';
+                        echo '<p><a href="" target="_blank">Messagerie</a></p>';
                     echo "</article>"; 
                 }
             ?>

@@ -23,6 +23,21 @@ catch (Exception $e)
     die('Erreur : ' . $e->getMessage());
 }
 
+// echo "<pre>";print_r($_SESSION);echo "</pre>";
+
+if (isset($_SESSION['LOGGED_USER']) && !empty($_SESSION['LOGGED_USER'])) {
+    if (!isset($_SESSION['2FA']) || ($_SESSION['2FA'] == false)) {
+        if (!isset($_SESSION['verification_code'])) {
+            // Générer un code de vérification unique et Enregistrer ce code dans la session
+            $_SESSION['verification_code'] = rand(100000, 999999);;
+            $_SESSION['verification_email'] = $_SESSION['LOGGED_USER'];
+
+            // Envoyer le code de vérification à l'utilisateur par email
+            mail($_SESSION['verification_email'], 'Code de vérification', "Voici votre code de vérification : ".$_SESSION['verification_code']);
+        }
+    }
+    
+}
 require_once $_SERVER['DOCUMENT_ROOT'] . '/fonctions/fonctions.php';
 $erreur = 0;
 

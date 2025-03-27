@@ -29,7 +29,7 @@
         <section>
             <div class="entrepot">
                 <h1>Mon Profil</h1>
-                <img class="groupe" src="/images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
+                <img class="groupe" src="/images/entreprise1.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
         </section>
         <section>
     <?php

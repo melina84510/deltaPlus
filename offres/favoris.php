@@ -1,17 +1,17 @@
-<?php include('config.php'); ?>
-<?php include('head.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/config.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php'; ?>
 
 <title>Delta Plus | Entreprise Familiale Leader en Fabrication d'EPI</title>
 <meta name="description" content="Découvrez Delta Plus, une entreprise familiale et leader dans la fabrication d'Équipements de Protection Individuelle (EPI). Forts de notre héritage, nous protégeons les travailleurs du monde entier avec des solutions innovantes et fiables.">
 
-<?php include('header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php'; ?>
     <main>
         <section>
             <div class="entrepot">
                     <h1>
                         Mes annonces
                     </h1>
-                    <img class="groupe" src="/images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
+                    <img class="groupe" src="/images/entreprise1.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
                 </div>
         </section>
         <section>
@@ -40,7 +40,7 @@
             <script src="/js/AfficherPlus.js"></script>
                 <?php
                 if ($listeOffresFavorites === NULL) {
-                    echo "<p>Aucunes offres favorite</p>";
+                    echo "<p>Aucunes offres favorites</p>";
                 } else {
                     foreach ($listeOffresFavorites as $idoffre) {
                         $AfficheOffre = $db->prepare('SELECT * FROM `offres` WHERE `id` LIKE :idoffre');
@@ -75,4 +75,4 @@
                 ?>
         </section>
     </main>
-<?php include('footer.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/footer.php'; ?>

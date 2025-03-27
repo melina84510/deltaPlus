@@ -46,8 +46,8 @@
                if (isset($_SESSION['LOGGED_USER'])){
                   if ($_SESSION['USER_ROLE'] != "admin" && $_SESSION['USER_ROLE'] != "rh") {
                      echo '<li><a href="/candidat/profil">Mon profil</a></li>';
-                     echo '<li><a href="/candidat/doc">Mes documents</a></li>';
-                     echo '<li><a href="/candidat/favoris">Mes annonces</a></li>';
+                     echo '<li><a href="/candidat/documents">Mes documents</a></li>';
+                     echo '<li><a href="/offres/favoris">Mes annonces</a></li>';
                      echo '<li><a href="/candidat/messages">Mes messages</a></li>';
                   } else {
                      echo '<li><a href="/open">Gestion</a></li>';
@@ -64,8 +64,8 @@
                if (isset($_SESSION['LOGGED_USER'])){
                   if ($_SESSION['USER_ROLE'] != "admin" && $_SESSION['USER_ROLE'] != "rh") {
                      echo '<li class="cachebureau"><a href="/candidat/profil">Mon profil</a></li>';
-                     echo '<li class="cachebureau"><a href="/candidat/doc">Mes documents</a></li>';
-                     echo '<li class="cachebureau"><a href="/candidat/favoris">Mes annonces</a></li>';
+                     echo '<li class="cachebureau"><a href="/candidat/documents">Mes documents</a></li>';
+                     echo '<li class="cachebureau"><a href="/offres/favoris">Mes annonces</a></li>';
                      echo '<li class="cachebureau"><a href="/candidat/messages">Mes messages</a></li>';
                   } else {
                      echo '<li class="cachebureau"><a href="open">Gestion</a></li>';

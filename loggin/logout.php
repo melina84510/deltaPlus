@@ -1,6 +1,6 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
+// require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 
 
 session_start();
@@ -23,6 +23,8 @@ if ($role == 'rh' || $role == 'admin') {
 }
 
 // Détruire la session
+unset($_SESSION['LOGGED_USER']);
+unset($_SESSION['2FA']);
 session_unset();
 session_destroy();
 exit;

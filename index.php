@@ -12,12 +12,13 @@
                 <h1>
                     Delta Plus Job
                 </h1>
-                <img class="groupe" src="/images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
+                <img class="groupe" src="/images/entreprise1.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
             </div>
             <div>
                 <h2>Qui sommes nous?</h2>
-                <p>Depuis plus de 40 ans, Delta Plus est un acteur mondial de référence dans la conception, la fabrication et la distribution de solutions de protection individuelle (EPI). Présente dans plus de 90 pays.</p>
-                <p>Grâce à notre expertise, nous avons développé une gamme complète d’EPI, couvrant l’ensemble des besoins des travailleurs, de la tête aux pieds : protection de la tête, du corps, des mains, des pieds et des dispositifs antichute. Nos produits répondent aux normes les plus strictes, assurant ainsi une sécurité optimale sur les lieux de travail les plus exigeants.</p>
+                <p>Depuis plus de 40 ans, Delta Plus est un acteur mondial de référence dans la conception, la fabrication et la distribution de solutions de protection individuelle (EPI). Présente dans plus de 90 pays. </br>
+                Grâce à notre expertise, nous avons développé une gamme complète d’EPI, couvrant l’ensemble des besoins des travailleurs, de la tête aux pieds : protection de la tête, du corps, des mains, des pieds et des dispositifs antichute. Nos produits répondent aux normes les plus strictes, assurant ainsi une sécurité optimale sur les lieux de travail les plus exigeants.
+                </p>
             </div>
             <div class="case">
                 <div><a href="/pages/apropos">En savoir plus?</a></div>
@@ -156,7 +157,7 @@
         </section>
         <section>
             <div>
-                <img class="groupe" src="/images/entreprise.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
+                <img class="groupe" src="/images/entreprise1.webp" alt="Vue aérienne du siège social de Delta Plus à Apt, montrant les bâtiments et les installations de l'entreprise leader en fabrication d'Équipements de Protection Individuelle (EPI).">
             </div>
         </section>
     </main>

@@ -25,13 +25,14 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
                     // Si l'utilisateur est actif, on entre ses informations en session
             //     //password_verify car on ne stock jamais un mot de passe en clair dans la BDD, on le hash ! 
                     if ( $retoursql['email'] === $mail && password_verify($_POST['pass'],$retoursql['pass'])) {
-                        // echo "mot de passe OK !"; 
                 //         //si utilisateur reconnu, entrer ses infos en session : 
                         $_SESSION['LOGGED_USER'] = $retoursql['email'];
                         $_SESSION['USER_ROLE'] = 'candidat';
                         $_SESSION['USER_ID'] = $retoursql['id'];
                         $_SESSION['NOMPRENOM'] = $retoursql['nom'] . ' ' . $retoursql['prenom'];
-                //         $_SESSION['LOGGED_USER'] = ['mail' => $user['mail'], 'id' => $user ['id'],];
+                        $_SESSION['2FA'] = false;
+                        header("Location: /loggin/verify.php");
+                        exit();
                     } 
                 }
             }
@@ -42,6 +43,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
         }
     }
 }
+
 include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/elementsreutilise/header.php';
 
@@ -84,14 +86,13 @@ if (!isset($_SESSION['LOGGED_USER'])) : ?>
 </main>
 
 <?php  else : ?>
-
 <main>
     <section>
         <h2 style="margin-bottom: 15px;">Bienvenue dans votre espace <?php echo htmlspecialchars($_SESSION['NOMPRENOM']); ?> !</h2>
         <div class='of'>
             <a onclick="location.href='/candidat/profil.php'">Mon profil</a>
-            <a onclick="location.href='/candidat/doc.php'">Mes documents</a>
-            <a onclick="location.href='/candidat/favoris.php'">Mes annonces</a>
+            <a onclick="location.href='/candidat/documents.php'">Mes documents</a>
+            <a onclick="location.href='/offres/favoris.php'">Mes annonces</a>
             <a onclick="location.href='/candidat/messages.php'">Mes messages</a>
         </div>
     </section>

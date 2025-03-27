@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
                 //         //si utilisateur reconnu, entrer ses infos en session : 
                         $_SESSION['LOGGED_USER'] = $retoursql['mail'];
                         $_SESSION['USER_ROLE'] = $retoursql['role'];
-                //         $_SESSION['LOGGED_USER'] = ['mail' => $user['mail'], 'id' => $user ['id'],];
+                        $_SESSION['USER_ID'] = $retoursql['id'];
                     }
                 }
         }
@@ -80,7 +80,7 @@ else : ?>
 <main>
     <section>
         <?php 
-            echo '<p class="of">' . $_SESSION['LOGGED_USER'] . ' est connecté ! <a href="/offres/index.php">Offres</a> <a href="/candidat/candidats">Candidatures</a> <a href="usercandidats">Candidats</a>';
+            echo '<p class="of">' . $_SESSION['LOGGED_USER'] . ' est connecté ! <a href="/offres/index.php">Offres</a> <a href="/candidat/candidats">Candidatures</a> <a href="/rh/sendmessagerh">Messagerie</a>';
             if ($_SESSION['USER_ROLE'] === 'admin') {
                 echo ' <a href="/loggin/utilisateurs">Utilisateurs</a></p>'; 
             }
